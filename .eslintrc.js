@@ -8,7 +8,7 @@ module.exports = {
   plugins: ["import"],
   rules: {
     "import/order": [
-      "warn",
+      "error",
       {
         groups: [
           ["builtin", "external"],

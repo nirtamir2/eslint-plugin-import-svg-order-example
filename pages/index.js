@@ -1,5 +1,5 @@
-import Cat from "../svgs/cat.svg";
 import { a } from "./a";
+import Cat from "../svgs/cat.svg";
 
 export default function Home() {
   return (

@@ -4,6 +4,16 @@ This repository has been created to reproduce [issue Import/order with .svg file
 
 I want that in `pages/index.js` the svg files will be group and will import as the last thing.
 
+## Reproducing
+
+run `yarn lint` after you install dependencies with yarn
+
+You will see:
+
+```
+  error  `../svgs/cat.svg` import should occur before import of `./a`  import/order
+```
+
 ![problem](./problem.png)
 
 ## SVG components example
