@@ -1,4 +1,12 @@
-# SVG components example
+# ESLint plugin import problem
+
+This repository has been created to reproduce [issue Import/order with .svg file patterns](https://github.com/benmosher/eslint-plugin-import/issues/1858) with eslint-plugin-import.
+
+I want that in `pages/index.js` the svg files will be group and will import as the last thing.
+
+![problem](./problem.png)
+
+## SVG components example
 
 This example uses a custom `.babelrc` to add support for importing `.svg` files and rendering them as React components. [babel-plugin-inline-react-svg](https://www.npmjs.com/package/babel-plugin-inline-react-svg) is used to handle transpiling the SVGs.
 
