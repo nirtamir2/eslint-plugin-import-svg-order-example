@@ -1,9 +1,11 @@
-import Cat from '../svgs/cat.svg'
+import Cat from "../svgs/cat.svg";
+import { a } from "./a";
 
 export default function Home() {
   return (
     <div className="container">
       <marquee>SVG Cat!</marquee>
+      <div>{a}</div>
       <Cat />
       <style jsx>{`
         .container {
@@ -12,5 +14,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }

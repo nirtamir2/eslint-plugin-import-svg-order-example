@@ -12,7 +12,10 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.0.1"
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "eslint": "^7.10.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
   },
   "license": "MIT"
 }
