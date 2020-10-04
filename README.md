@@ -6,7 +6,7 @@ I want that in `pages/index.js` the svg files will be group and will import as t
 
 ## Reproducing
 
-run `yarn lint` after you install dependencies with yarn
+Run `yarn lint` after you install dependencies with yarn
 
 You will see:
 
