@@ -1,0 +1,11 @@
+.Root {
+  background: green;
+  &:hover {
+    background: rebeccapurple;
+  }
+}
+
+.Root__Counter {
+  color: white;
+  font-size: 40px;
+}

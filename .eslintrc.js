@@ -5,7 +5,16 @@ module.exports = {
     jest: true,
     node: true,
   },
-  plugins: ["import"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "import"],
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx", "*.d.ts"],
+      parserOptions: {
+        project: "./tsconfig.json",
+      },
+    },
+  ],
   rules: {
     "import/order": [
       "error",
@@ -18,6 +27,11 @@ module.exports = {
         pathGroups: [
           {
             pattern: "*.svg",
+            group: "object",
+            position: "after",
+          },
+          {
+            pattern: "*.css",
             group: "object",
             position: "after",
           },
